@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		364999551BA7BC070037A5C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 364999541BA7BC070037A5C5 /* main.m */; };
+		364999581BA7BC070037A5C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 364999571BA7BC070037A5C5 /* AppDelegate.m */; };
+		3649995B1BA7BC070037A5C5 /* TTDownloader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 364999591BA7BC070037A5C5 /* TTDownloader.xcdatamodeld */; };
+		3649995E1BA7BC070037A5C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3649995D1BA7BC070037A5C5 /* ViewController.m */; };
+		364999611BA7BC070037A5C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3649995F1BA7BC070037A5C5 /* Main.storyboard */; };
+		364999631BA7BC070037A5C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 364999621BA7BC070037A5C5 /* Images.xcassets */; };
+		364999661BA7BC070037A5C5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 364999641BA7BC070037A5C5 /* LaunchScreen.xib */; };
+		364999721BA7BC070037A5C5 /* TTDownloaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 364999711BA7BC070037A5C5 /* TTDownloaderTests.m */; };
+		7A777BE697D4D920E3525213 /* libPods-TTDownloader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3640BF2D3F8176AE7B522777 /* libPods-TTDownloader.a */; };
+		FCCCBB3DFD46E8CBE0F996A5 /* libPods-TTDownloaderTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 762EBE8259E9ADB6F643BD32 /* libPods-TTDownloaderTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3649996C1BA7BC070037A5C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 364999471BA7BC060037A5C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3649994E1BA7BC060037A5C5;
+			remoteInfo = TTDownloader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3640BF2D3F8176AE7B522777 /* libPods-TTDownloader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TTDownloader.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3649994F1BA7BC060037A5C5 /* TTDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		364999531BA7BC070037A5C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		364999541BA7BC070037A5C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		364999561BA7BC070037A5C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		364999571BA7BC070037A5C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3649995A1BA7BC070037A5C5 /* TTDownloader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TTDownloader.xcdatamodel; sourceTree = "<group>"; };
+		3649995C1BA7BC070037A5C5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3649995D1BA7BC070037A5C5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		364999601BA7BC070037A5C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		364999621BA7BC070037A5C5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		364999651BA7BC070037A5C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3649996B1BA7BC070037A5C5 /* TTDownloaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTDownloaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		364999701BA7BC070037A5C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		364999711BA7BC070037A5C5 /* TTDownloaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTDownloaderTests.m; sourceTree = "<group>"; };
+		3766215BC91F7DBF86E26E21 /* Pods-TTDownloader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTDownloader.release.xcconfig"; path = "Pods/Target Support Files/Pods-TTDownloader/Pods-TTDownloader.release.xcconfig"; sourceTree = "<group>"; };
+		718AD06C5853BBA73E221C27 /* Pods-TTDownloaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTDownloaderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TTDownloaderTests/Pods-TTDownloaderTests.release.xcconfig"; sourceTree = "<group>"; };
+		762EBE8259E9ADB6F643BD32 /* libPods-TTDownloaderTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TTDownloaderTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7F705AFD0D935D315A3CD6C /* Pods-TTDownloader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTDownloader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TTDownloader/Pods-TTDownloader.debug.xcconfig"; sourceTree = "<group>"; };
+		E19138A53721AF2A0B1C8101 /* Pods-TTDownloaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTDownloaderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TTDownloaderTests/Pods-TTDownloaderTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3649994C1BA7BC060037A5C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A777BE697D4D920E3525213 /* libPods-TTDownloader.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		364999681BA7BC070037A5C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCCCBB3DFD46E8CBE0F996A5 /* libPods-TTDownloaderTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1817CE07D22B01108F274881 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7F705AFD0D935D315A3CD6C /* Pods-TTDownloader.debug.xcconfig */,
+				3766215BC91F7DBF86E26E21 /* Pods-TTDownloader.release.xcconfig */,
+				E19138A53721AF2A0B1C8101 /* Pods-TTDownloaderTests.debug.xcconfig */,
+				718AD06C5853BBA73E221C27 /* Pods-TTDownloaderTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		364999461BA7BC060037A5C5 = {
+			isa = PBXGroup;
+			children = (
+				364999511BA7BC060037A5C5 /* TTDownloader */,
+				3649996E1BA7BC070037A5C5 /* TTDownloaderTests */,
+				364999501BA7BC060037A5C5 /* Products */,
+				1817CE07D22B01108F274881 /* Pods */,
+				F815D508377F92FC296CCB02 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		364999501BA7BC060037A5C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3649994F1BA7BC060037A5C5 /* TTDownloader.app */,
+				3649996B1BA7BC070037A5C5 /* TTDownloaderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		364999511BA7BC060037A5C5 /* TTDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				364999561BA7BC070037A5C5 /* AppDelegate.h */,
+				364999571BA7BC070037A5C5 /* AppDelegate.m */,
+				3649995C1BA7BC070037A5C5 /* ViewController.h */,
+				3649995D1BA7BC070037A5C5 /* ViewController.m */,
+				3649995F1BA7BC070037A5C5 /* Main.storyboard */,
+				364999621BA7BC070037A5C5 /* Images.xcassets */,
+				364999641BA7BC070037A5C5 /* LaunchScreen.xib */,
+				364999591BA7BC070037A5C5 /* TTDownloader.xcdatamodeld */,
+				364999521BA7BC070037A5C5 /* Supporting Files */,
+			);
+			path = TTDownloader;
+			sourceTree = "<group>";
+		};
+		364999521BA7BC070037A5C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				364999531BA7BC070037A5C5 /* Info.plist */,
+				364999541BA7BC070037A5C5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3649996E1BA7BC070037A5C5 /* TTDownloaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				364999711BA7BC070037A5C5 /* TTDownloaderTests.m */,
+				3649996F1BA7BC070037A5C5 /* Supporting Files */,
+			);
+			path = TTDownloaderTests;
+			sourceTree = "<group>";
+		};
+		3649996F1BA7BC070037A5C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				364999701BA7BC070037A5C5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F815D508377F92FC296CCB02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3640BF2D3F8176AE7B522777 /* libPods-TTDownloader.a */,
+				762EBE8259E9ADB6F643BD32 /* libPods-TTDownloaderTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3649994E1BA7BC060037A5C5 /* TTDownloader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 364999751BA7BC070037A5C5 /* Build configuration list for PBXNativeTarget "TTDownloader" */;
+			buildPhases = (
+				02F46E66143EC9654FAE797E /* Check Pods Manifest.lock */,
+				3649994B1BA7BC060037A5C5 /* Sources */,
+				3649994C1BA7BC060037A5C5 /* Frameworks */,
+				3649994D1BA7BC060037A5C5 /* Resources */,
+				2DACEE577163CF91D514A9E4 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTDownloader;
+			productName = TTDownloader;
+			productReference = 3649994F1BA7BC060037A5C5 /* TTDownloader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3649996A1BA7BC070037A5C5 /* TTDownloaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 364999781BA7BC070037A5C5 /* Build configuration list for PBXNativeTarget "TTDownloaderTests" */;
+			buildPhases = (
+				14230E6D1E9B084E16782D8C /* Check Pods Manifest.lock */,
+				364999671BA7BC070037A5C5 /* Sources */,
+				364999681BA7BC070037A5C5 /* Frameworks */,
+				364999691BA7BC070037A5C5 /* Resources */,
+				DA1F73FE953F17128335D59F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3649996D1BA7BC070037A5C5 /* PBXTargetDependency */,
+			);
+			name = TTDownloaderTests;
+			productName = TTDownloaderTests;
+			productReference = 3649996B1BA7BC070037A5C5 /* TTDownloaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		364999471BA7BC060037A5C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = tuent;
+				TargetAttributes = {
+					3649994E1BA7BC060037A5C5 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					3649996A1BA7BC070037A5C5 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 3649994E1BA7BC060037A5C5;
+					};
+				};
+			};
+			buildConfigurationList = 3649994A1BA7BC060037A5C5 /* Build configuration list for PBXProject "TTDownloader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 364999461BA7BC060037A5C5;
+			productRefGroup = 364999501BA7BC060037A5C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3649994E1BA7BC060037A5C5 /* TTDownloader */,
+				3649996A1BA7BC070037A5C5 /* TTDownloaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3649994D1BA7BC060037A5C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				364999611BA7BC070037A5C5 /* Main.storyboard in Resources */,
+				364999661BA7BC070037A5C5 /* LaunchScreen.xib in Resources */,
+				364999631BA7BC070037A5C5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		364999691BA7BC070037A5C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02F46E66143EC9654FAE797E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		14230E6D1E9B084E16782D8C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2DACEE577163CF91D514A9E4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TTDownloader/Pods-TTDownloader-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA1F73FE953F17128335D59F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TTDownloaderTests/Pods-TTDownloaderTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3649994B1BA7BC060037A5C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3649995B1BA7BC070037A5C5 /* TTDownloader.xcdatamodeld in Sources */,
+				364999581BA7BC070037A5C5 /* AppDelegate.m in Sources */,
+				3649995E1BA7BC070037A5C5 /* ViewController.m in Sources */,
+				364999551BA7BC070037A5C5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		364999671BA7BC070037A5C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				364999721BA7BC070037A5C5 /* TTDownloaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3649996D1BA7BC070037A5C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3649994E1BA7BC060037A5C5 /* TTDownloader */;
+			targetProxy = 3649996C1BA7BC070037A5C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3649995F1BA7BC070037A5C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				364999601BA7BC070037A5C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		364999641BA7BC070037A5C5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				364999651BA7BC070037A5C5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		364999731BA7BC070037A5C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		364999741BA7BC070037A5C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		364999761BA7BC070037A5C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7F705AFD0D935D315A3CD6C /* Pods-TTDownloader.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TTDownloader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		364999771BA7BC070037A5C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3766215BC91F7DBF86E26E21 /* Pods-TTDownloader.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TTDownloader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		364999791BA7BC070037A5C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E19138A53721AF2A0B1C8101 /* Pods-TTDownloaderTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TTDownloaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTDownloader.app/TTDownloader";
+			};
+			name = Debug;
+		};
+		3649997A1BA7BC070037A5C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 718AD06C5853BBA73E221C27 /* Pods-TTDownloaderTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TTDownloaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTDownloader.app/TTDownloader";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3649994A1BA7BC060037A5C5 /* Build configuration list for PBXProject "TTDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				364999731BA7BC070037A5C5 /* Debug */,
+				364999741BA7BC070037A5C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		364999751BA7BC070037A5C5 /* Build configuration list for PBXNativeTarget "TTDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				364999761BA7BC070037A5C5 /* Debug */,
+				364999771BA7BC070037A5C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		364999781BA7BC070037A5C5 /* Build configuration list for PBXNativeTarget "TTDownloaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				364999791BA7BC070037A5C5 /* Debug */,
+				3649997A1BA7BC070037A5C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		364999591BA7BC070037A5C5 /* TTDownloader.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3649995A1BA7BC070037A5C5 /* TTDownloader.xcdatamodel */,
+			);
+			currentVersion = 3649995A1BA7BC070037A5C5 /* TTDownloader.xcdatamodel */;
+			path = TTDownloader.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 364999471BA7BC060037A5C5 /* Project object */;
+}
